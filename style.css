@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Each section spacing */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Hero section (first impression) */
+#hero {
+    background-color: #111;
+}
+
+/* Section titles */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Make paragraphs easier to read */
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #cccccc;
+}
+
+/* Projects box styling */
+.project {
+    background-color: #1a1a1a;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+#skills p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #cccccc;
+}
+
+section {
+    border-bottom: 1px solid #222;
+}
