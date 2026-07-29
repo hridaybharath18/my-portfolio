@@ -339,3 +339,71 @@ section h2 {
 
 
 }
+
+#theme-toggle {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.light-mode {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+
+.light-mode nav {
+    background: rgba(248,250,252,0.9);
+}
+
+
+.light-mode .project-card,
+.light-mode .skill {
+    background: #e2e8f0;
+}
+
+
+.light-mode p {
+    color: #334155;
+}
+
+
+.light-mode .nav-links a {
+    color: #0f172a;
+}
+
+.tech-stack {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: 20px 0;
+
+}
+
+
+.tech-stack span {
+
+    background: #38bdf8;
+
+    color: black;
+
+    padding: 6px 15px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.project-buttons a {
+
+    display: inline-block;
+
+}
